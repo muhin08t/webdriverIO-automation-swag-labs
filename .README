@@ -1,0 +1,4 @@
+1. Generate the Allure report using the following command:
+npm run allure:generate
+2. Open the Allure report in your default browser:
+npm run allure:open
