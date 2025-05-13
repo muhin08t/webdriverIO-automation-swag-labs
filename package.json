@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
+    "loginToCart": "wdio run ./wdio.conf.js --suite combinationOfTests",
     "allure:generate": "allure generate allure-results --clean -o allure-report",
     "allure:open": "allure open allure-report",
     "allure:clean": "rd /s /q allure-results && rd /s /q allure-report"

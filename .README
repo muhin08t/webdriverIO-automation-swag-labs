@@ -1,4 +1,10 @@
-1. Generate the Allure report using the following command:
+1. Put belwo variable in spec array to run locked user login test scenario
+loced_user_login
+2. Put belwo variable in spec array to run standar user and product add scenario
+login_product_order
+3. Run below command to run all test cases sequentially :
+npm run loginToCart
+4. Generate the Allure report using the following command:
 npm run allure:generate
-2. Open the Allure report in your default browser:
+5. Open the Allure report in your default browser:
 npm run allure:open
